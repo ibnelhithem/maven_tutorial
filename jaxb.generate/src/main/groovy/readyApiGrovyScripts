@@ -1,0 +1,5 @@
+
+
+def requestid = java.util.UUID.randomUUID().toString()
+        .replace('-','') + 'waiaagbrJaaaadedGQFQotT+bc5P6iaagbZvQaaadeNiaFQotV+bc5P6iaagbZvQaaadeNiaFQotVwaiaagbrJaaaadedGQFQotT+bc5P6iaagbZvQaaadeNiaFQotV+bc5P6iaagbZvQaaadeNiaFQotV';
+//log.info requestid

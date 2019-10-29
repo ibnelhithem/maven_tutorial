@@ -1,0 +1,69 @@
+
+import java.security.MessageDigest
+
+//This function retuns, for a given input String s, the MD5 Hash value for it, as result.
+def generateMD5(String s) {
+    MessageDigest digest = MessageDigest.getInstance("MD5");
+    digest.update(s.bytes);
+    MD5 = new BigInteger(1, digest.digest()).toString(16).padLeft(32, '0');
+    return MD5;
+}
+
+//this method computes the MD5 Hash of the notification message that Skrill sents to the Elastic Engine as notification after a transaction has been sent to Skrill.
+//It is computed the same way explained in Skrill spec document "moneybookers_gateway_manual.pdf", Annex III - MD5 Signature, pag 36.
+//Basically, the MD5 algorithm is applied to the concatenation of the following strings: merchant_id + transaction_id + uppercase(MD5(secret_word)) + mb_amount + mb_currency + status.
+//Once computed from the fields extracted by EE from the notification message sent by Skrill, it must be compared to the MD5 value sent by Skrill to EE, to verify that they are the same.
+//If they are the same, it means that the notification has been not changed by any third person, otherwise EE should discard it as it has been changed somehow.
+def computeNotificationMessageMD5(String merchant_id, String transaction_id, String secret_word, String mb_amount, String mb_currency, String status) {
+    log.info "calculating HASH (MD5) for following values:";
+    log.info("computeNotificationMessageMD5() - ENTRY");
+    log.info("merchant_id: " + merchant_id);
+    log.info("transaction_id: " + transaction_id);
+    log.info("secret_word: " + secret_word);
+    log.info("mb_amount: " + mb_amount);
+    log.info("mb_currency: " + mb_currency);
+    log.info("status: " + status);
+
+    String MD5_secret_word = generateMD5(secret_word);
+    log.info("MD5_secret_word: " + MD5_secret_word);
+
+    String upper_cased_MD5_secret_word = MD5_secret_word.toUpperCase();
+    log.info("upper_cased_MD5_secret_word: " + upper_cased_MD5_secret_word);
+
+    String input_word = merchant_id + transaction_id + upper_cased_MD5_secret_word + mb_amount + mb_currency + status;
+    log.info("input_word: " + input_word);
+
+    String notificationMessageMD5 = generateMD5(input_word);
+    log.info("returning computed MD5 of notification message:     " + notificationMessageMD5.toUpperCase());
+    log.info("computeNotificationMessageMD5() - EXIT");
+
+    //as from Skrill specification document, MD5 must be uppercased.
+    return notificationMessageMD5.toUpperCase();
+}
+
+//Main code: using hardcoded values for the inputs (to be changed with actual values), it invokes the computeNotificationMessageMD5 and return, as script return, the computed MD5 hash value.
+
+// Input samples to be used to see how the script works:
+/*
+String merchant_id =  "28248495";
+String transaction_id = "294ba7ab7e76e1f72db33128dab967c1";
+String secret_word = "wirecard";
+String mb_amount = "14.4";
+String mb_currency = "EUR";
+String status = "2";
+*/
+
+String merchant_id =  context.expand('${#TestCase#forHASH__merchant_id}');
+String transaction_id = context.expand('${#TestCase#forHASH__transaction_id}');
+String secret_word = context.expand('${#TestCase#forHASH__secret_word}');
+String mb_amount = context.expand('${#TestCase#forHASH__mb_amount}');
+String mb_currency = context.expand('${#TestCase#forHASH__mb_currency}');
+String status = context.expand('${#TestCase#forHASH__status}');
+
+
+String md5sig  = computeNotificationMessageMD5( merchant_id, transaction_id,  secret_word,  mb_amount,  mb_currency,  status);
+
+log.info("MD5 is:             " + md5sig);
+
+//return md5sig;
+testRunner.testCase.setPropertyValue("HASH", md5sig);

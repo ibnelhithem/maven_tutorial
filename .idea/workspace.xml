@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="77536bdd-2396-4b79-baf4-90befe91744d" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Kotlin File" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="package-info" />
+        <option value="JUnit4 Test Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="nexus-local-distr" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1QHkRnN7EUHQegOVqOSW7isHAVG" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Spock" value="spock.lang.Specification" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/maven.test.practice/src/test/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jaxb.generate/src/main/groovy" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.65977013" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\install\maven_tutorial\myProject\maven.test.practice\src\test\groovy" />
+      <recent name="C:\install\maven_tutorial\myProject\jaxb.generate\src\main\groovy" />
+      <recent name="C:\install\maven_tutorial\myProject\jaxb.generate\src\main\resources\schema1" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="spock.lang.Specification" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\install\maven_tutorial\myProject\jaxb.generate\src\main\groovy" />
+      <recent name="C:\install\maven_tutorial\myProject\target" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.HelloIntegrationTestIT.testCallModues">
+    <configuration name="HelloIntegrationTestIT.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maventestpractice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HelloIntegrationTestIT" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloTestJSpockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maventestpractice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HelloTestJSpockTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloTestJunit5Test.method1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maventestpractice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HelloTestJunit5Test" />
+      <option name="METHOD_NAME" value="method1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegexTest.regexTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maventestpractice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegexTest" />
+      <option name="METHOD_NAME" value="regexTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloIntegrationTestIT.testCallModues" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="maventestpractice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HelloIntegrationTestIT" />
+      <option name="METHOD_NAME" value="testCallModues" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.HelloIntegrationTestIT.testCallModues" />
+        <item itemvalue="JUnit.HelloIntegrationTestIT.test1" />
+        <item itemvalue="JUnit.HelloTestJunit5Test.method1" />
+        <item itemvalue="JUnit.HelloTestJSpockTest" />
+        <item itemvalue="JUnit.RegexTest.regexTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="77536bdd-2396-4b79-baf4-90befe91744d" name="Default Changelist" comment="" />
+      <created>1564648281558</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564648281558</updated>
+      <workItem from="1564648287202" duration="7943000" />
+      <workItem from="1564670662557" duration="1138000" />
+      <workItem from="1564733510747" duration="3878000" />
+      <workItem from="1564748293072" duration="7413000" />
+      <workItem from="1565083354434" duration="19683000" />
+      <workItem from="1565276151606" duration="1563000" />
+      <workItem from="1565342130225" duration="1282000" />
+      <workItem from="1565343595905" duration="18764000" />
+      <workItem from="1565681822415" duration="20679000" />
+      <workItem from="1565773185590" duration="7316000" />
+      <workItem from="1566288451196" duration="1743000" />
+      <workItem from="1566374088099" duration="664000" />
+      <workItem from="1566462455181" duration="4840000" />
+      <workItem from="1566805272385" duration="15562000" />
+      <workItem from="1567168818537" duration="423000" />
+      <workItem from="1567169936021" duration="4194000" />
+      <workItem from="1567428231923" duration="1164000" />
+      <workItem from="1567434937294" duration="1257000" />
+      <workItem from="1567581862682" duration="2699000" />
+      <workItem from="1567674485178" duration="14733000" />
+      <workItem from="1568116459615" duration="7713000" />
+      <workItem from="1569242997732" duration="995000" />
+      <workItem from="1571391943593" duration="119000" />
+      <workItem from="1571392077554" duration="6720000" />
+      <workItem from="1571451071151" duration="5324000" />
+      <workItem from="1571644610807" duration="1056000" />
+      <workItem from="1572259276684" duration="686000" />
+      <workItem from="1572338022418" duration="788000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="HelloTestJSpockTest - 2019.08.13 at 17h 19m 17s.xml">
+      <configuration name="HelloTestJSpockTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloTestJSpockTest - 2019.08.13 at 17h 20m 00s.xml">
+      <configuration name="HelloTestJSpockTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloTestJSpockTest - 2019.08.13 at 17h 22m 23s.xml">
+      <configuration name="HelloTestJSpockTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloTestJunit5Test_method1 - 2019.08.13 at 17h 51m 54s.xml">
+      <configuration name="HelloTestJunit5Test.method1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloIntegrationTestIT_test1 - 2019.08.13 at 21h 36m 07s.xml">
+      <configuration name="HelloIntegrationTestIT.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloIntegrationTestIT_testCallModues - 2019.08.22 at 13h 12m 35s.xml">
+      <configuration name="HelloIntegrationTestIT.testCallModues" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HelloIntegrationTestIT_testCallModues - 2019.08.22 at 13h 12m 54s.xml">
+      <configuration name="HelloIntegrationTestIT.testCallModues" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HelloIntegrationTestIT_testCallModues - 2019.08.26 at 10h 32m 20s.xml">
+      <configuration name="HelloIntegrationTestIT.testCallModues" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HelloIntegrationTestIT_testCallModues - 2019.08.26 at 10h 54m 37s.xml">
+      <configuration name="HelloIntegrationTestIT.testCallModues" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HelloIntegrationTestIT_testCallModues - 2019.08.26 at 11h 08m 40s.xml">
+      <configuration name="HelloIntegrationTestIT.testCallModues" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>maven</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.65977013" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
