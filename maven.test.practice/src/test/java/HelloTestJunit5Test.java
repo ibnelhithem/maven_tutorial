@@ -13,6 +13,13 @@ class HelloTestJunit5Test {
         System.out.println("normal junit5 test");
         assertEquals("hello world",helloTestJunit5.method1());
     }
+    
+    @Test
+    void method2() {
+        HelloTestJunit5 helloTestJunit5 = new HelloTestJunit5();
+        System.out.println("normal junit5 test2 to check poll from SCM");
+        assertEquals("hello world",helloTestJunit5.method1());
+    }
 
     /*@Test
     void xolve(){
